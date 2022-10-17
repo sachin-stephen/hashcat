@@ -6,12 +6,18 @@
 *Uncompress the dictionary file using the below command*
 
 ┌──(kali㉿kali)-[~]
-└─$ gzip -d crackstation.txt.gz      
-
-*Use manual to use the hashcat to decrypt the hashes*
+└─$ 
 ```bash
+gzip -d crackstation.txt.gz   
+```
+*Use manual to use the hashcat to decrypt the hashes*
+
 ┌──(kali㉿kali)-[~]
-└─$ hashcat -m 3200 "\$2y\$12\$Dwt1BZj6pcyc3Dy1FWZ5ieeUznr71EeNkJkUlypTsgbX1H68wsRom" /home/kali/Downloads/crackstation.txt
+└─$ 
+```bash
+hashcat -m 3200 "\$2y\$12\$Dwt1BZj6pcyc3Dy1FWZ5ieeUznr71EeNkJkUlypTsgbX1H68wsRom" /home/kali/Downloads/crackstation.txt
+```
+```bash
 hashcat (v6.2.5) starting
 
 OpenCL API (OpenCL 1.2 pocl 1.6, None+Asserts, LLVM 9.0.1, RELOC, SLEEF, DISTRO, POCL_DEBUG) - Platform #1 [The pocl project]
