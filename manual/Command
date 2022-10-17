@@ -1,0 +1,35 @@
+┌──(kali㉿kali)-[~]
+└─$ hashcat -m 3200 "\$2y\$12\$Dwt1BZj6pcyc3Dy1FWZ5ieeUznr71EeNkJkUlypTsgbX1H68wsRom" /home/kali/Downloads/crackstation.txt
+
+- hashcat (v6.2.5) starting
+
+```bash
+
+OpenCL API (OpenCL 1.2 pocl 1.6, None+Asserts, LLVM 9.0.1, RELOC, SLEEF, DISTRO, POCL_DEBUG) - Platform #1 [The pocl project]
+=============================================================================================================================
+* Device #1: pthread-Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz, 1370/2805 MB (512 MB allocatable), 2MCU
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 72
+
+Hashes: 1 digests; 1 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+Rules: 1
+
+Optimizers applied:
+* Zero-Byte
+* Single-Hash
+* Single-Salt
+
+Watchdog: Temperature abort trigger set to 90c
+
+Host memory required for this attack: 0 MB
+
+Dictionary cache building /home/kali/Downloads/crackstation.txt: 100660338 bytes (0.64%Dictionary cache building /home/kali/Downloads/crackstation.txt: 167767206 bytes (1.07%
+Dictionary cache built:
+* Filename..: /home/kali/Downloads/crackstation.txt
+* Passwords.: 1212356398
+* Bytes.....: 15696118781
+* Keyspace..: 1212336035
+* Runtime...: 5 mins, 18 secs
+```
