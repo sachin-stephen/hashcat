@@ -10,7 +10,17 @@
 ```bash
 gzip -d crackstation.txt.gz   
 ```
-*Use manual to use the hashcat to decrypt the hashes*
+```Use manual to use the hashcat to decrypt the hashes```<br />
+
+```Check @hash types for the hash mode value```<br />
+
+```check dictionary path```<br />
+
+```pwd```   ```ls```     ```cd```
+
+```bash
+cd /home/kali/Downloads/crackstation.txt
+```
 
 ┌──(kali㉿kali)-[~]
 └─$ 
